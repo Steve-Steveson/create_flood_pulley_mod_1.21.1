@@ -1,4 +1,4 @@
-package net.steveson.greedydeployers;
+package net.steveson.createfloodpulley;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
@@ -11,9 +11,9 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = CreateGreedyDeployersMod.MOD_ID, dist = Dist.CLIENT)
+@Mod(value = CreateFloodPulleyMod.MOD_ID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = CreateGreedyDeployersMod.MOD_ID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = CreateFloodPulleyMod.MOD_ID, value = Dist.CLIENT)
 public class ExampleModClient {
     public ExampleModClient(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
@@ -25,7 +25,7 @@ public class ExampleModClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        CreateGreedyDeployersMod.LOGGER.info("HELLO FROM CLIENT SETUP");
-        CreateGreedyDeployersMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        CreateFloodPulleyMod.LOGGER.info("HELLO FROM CLIENT SETUP");
+        CreateFloodPulleyMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
