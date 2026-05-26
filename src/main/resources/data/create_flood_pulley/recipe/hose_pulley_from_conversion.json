@@ -3,10 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "create:hose_pulley"
+      "item": "create_flood_pulley:flood_pulley"
     }
   ],
   "result": {
-    "item": "create_flood_pulley:flood_pulley"
+    "count": 1,
+    "id": "create:hose_pulley"
   }
 }

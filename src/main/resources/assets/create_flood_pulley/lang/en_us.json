@@ -2,13 +2,5 @@
   "block.create_flood_pulley.flood_pulley": "Flood Pulley",
   "create_flood_pulley.shape_mode": "Area Shape",
   "create_flood_pulley.shape_mode.shape_cube": "Cuboid",
-  "create_flood_pulley.shape_mode.shape_cylinder": "Cylinder",
-
-  "create_flood_pulley.configuration.title": "Example Mod Configs",
-  "create_flood_pulley.configuration.section.create_flood_pulley.common.toml": "Example Mod Configs",
-  "create_flood_pulley.configuration.section.create_flood_pulley.common.toml.title": "Example Mod Configs",
-  "create_flood_pulley.configuration.items": "Item List",
-  "create_flood_pulley.configuration.logDirtBlock": "Log Dirt Block",
-  "create_flood_pulley.configuration.magicNumberIntroduction": "Magic Number Text",
-  "create_flood_pulley.configuration.magicNumber": "Magic Number"
+  "create_flood_pulley.shape_mode.shape_cylinder": "Cylinder"
 }
