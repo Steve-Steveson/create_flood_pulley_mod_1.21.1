@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_21",
+  "package": "net.steveson.createfloodpulley.mixin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AllCreatePonderScenesMixin"
+  ]
+}
